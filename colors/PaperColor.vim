@@ -1013,7 +1013,7 @@ fun! s:set_color_variables()
 
   " Cursor: in normal mode
   call s:create_color_variables('cursor_fg', get(s:palette, 'cursor_fg', color00) , 'Black')
-  call s:create_color_variables('cursor_bg', get(s:palette, 'cursor_bg', color07) , 'LightGray')
+  call s:create_color_variables('cursor_bg', get(s:palette, 'cursor_bg', color12) , 'LightGray')
 
   call s:create_color_variables('cursorline', get(s:palette, 'cursorline', color00) , 'Black')
 
